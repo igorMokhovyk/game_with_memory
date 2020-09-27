@@ -5,11 +5,12 @@
 .board-row:after {
   clear: both;
   content: "";
-  display: table;
+  display: flex;
 }
 
 .status {
-  margin-bottom: 50px;
+  background-size: 10px 10px;
+  background-position: center center;
 }
 
 .btn {
@@ -22,9 +23,11 @@
   height: 100px;
   margin-right: -1px;
   margin-top: -1px;
-  padding: 0;
+  padding: 0px;
   text-align: center;
   width: 100px;
+  display: block;
+
 }
 
 

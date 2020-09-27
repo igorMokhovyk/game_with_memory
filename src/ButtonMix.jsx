@@ -1,10 +1,14 @@
 import React from "react";
 
 
-function ButtonMix (props) {
+function ButtonMix(props) {
+
+
     return (
+
+
         <div>
-            <button>Mix Numbers</button>
+            <button onClick={props.numberMix} value={props.numbers}>Mix Numbers</button>
 
         </div>
     )
